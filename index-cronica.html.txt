@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Deriva sobre la persona — Crónica | Umbral Punk</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    :root{
+      --bg-1:#040707;
+      --bg-2:#071016;
+      --ink:#f5f7f9;
+      --muted:#9aa0a6;
+      --neon:#00ff9c;
+      --rad:18px;
+    }
+
+    *{box-sizing:border-box;}
+
+    body{
+      margin:0;
+      min-height:100vh;
+      padding:24px;
+      font-family: "Crimson Text", Georgia, "Times New Roman", serif;
+      background:radial-gradient(circle at top, #111827, var(--bg-1)) fixed;
+      color:var(--ink);
+      line-height:1.7;
+      -webkit-font-smoothing:antialiased;
+    }
+
+    main{
+      max-width:760px;
+      margin:0 auto;
+      background:rgba(0,0,0,0.45);
+      border-radius:var(--rad);
+      padding:28px 22px 32px;
+      box-shadow:0 18px 45px rgba(0,0,0,0.65);
+      border:1px solid rgba(148,163,184,0.2);
+      backdrop-filter:blur(10px);
+    }
+
+    header.hero{
+      margin-bottom:24px;
+    }
+
+    h1{
+      margin:0 0 6px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Share Tech Mono", monospace;
+      font-size:1.9rem;
+      letter-spacing:0.03em;
+      text-transform:uppercase;
+    }
+
+    h2{
+      margin:0;
+      font-weight:400;
+      font-size:0.98rem;
+      color:var(--muted);
+      letter-spacing:0.12em;
+      text-transform:uppercase;
+    }
+
+    p{
+      margin:0 0 1.1rem;
+      font-size:1.02rem;
+    }
+
+    p.dropcap:first-letter{
+      float:left;
+      font-size:3.1rem;
+      line-height:0.9;
+      padding-right:8px;
+      padding-top:4px;
+      font-family: "Times New Roman", serif;
+      color:var(--neon);
+    }
+
+    .pull{
+      margin:1.8rem 0;
+      padding-left:1rem;
+      border-left:2px solid rgba(0,255,156,0.7);
+      font-style:italic;
+      color:#e5e7eb;
+    }
+
+    .sep{
+      text-align:center;
+      margin:1.6rem 0 1.4rem;
+      opacity:0.55;
+      letter-spacing:0.35em;
+      text-transform:uppercase;
+      font-size:0.72rem;
+    }
+
+    figure{
+      margin:1.4rem auto;
+      max-width:640px;
+      border-radius:var(--rad);
+      overflow:hidden;
+      background:#020617;
+      border:1px solid rgba(148,163,184,0.4);
+    }
+
+    figure img{
+      display:block;
+      width:100%;
+      height:auto;
+    }
+
+    figcaption{
+      padding:8px 12px 10px;
+      font-size:0.82rem;
+      color:var(--muted);
+    }
+
+    a.back{
+      display:inline-flex;
+      align-items:center;
+      gap:6px;
+      text-decoration:none;
+      font-size:0.8rem;
+      color:var(--muted);
+      text-transform:uppercase;
+      letter-spacing:0.14em;
+      margin-bottom:14px;
+    }
+
+    a.back:hover{
+      color:var(--neon);
+    }
+
+    footer.footnote{
+      margin-top:2rem;
+      font-size:0.78rem;
+      color:var(--muted);
+      border-top:1px solid rgba(148,163,184,0.3);
+      padding-top:0.9rem;
+    }
+
+    .lang-switch{
+      display:flex;
+      justify-content:flex-end;
+      gap:6px;
+      margin-bottom:12px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Share Tech Mono", monospace;
+    }
+
+    .lang-pill{
+      border:1px solid rgba(255,255,255,0.25);
+      background:rgba(0,0,0,0.4);
+      color:inherit;
+      font-size:0.75rem;
+      padding:3px 8px;
+      border-radius:999px;
+      text-decoration:none;
+      opacity:0.7;
+      cursor:pointer;
+      text-transform:uppercase;
+      letter-spacing:0.14em;
+      display:inline-flex;
+      align-items:center;
+      gap:4px;
+      transition:opacity 0.2s, background 0.2s, transform 0.1s;
+    }
+
+    .lang-pill:hover{
+      opacity:1;
+      transform:translateY(-1px);
+    }
+
+    .lang-pill.active{
+      background:rgba(0,255,156,0.2);
+      opacity:1;
+      cursor:default;
+    }
+
+    @media (max-width:600px){
+      body{padding:16px;}
+      main{
+        padding:20px 16px 24px;
+        border-radius:14px;
+      }
+      h1{font-size:1.6rem;}
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <!-- Selector de idioma -->
+    <div class="lang-switch" aria-label="Cambiar idioma">
+      <span class="lang-pill active">ES</span>
+      <a class="lang-pill" href="index-it.html">IT</a>
+    </div>
+
+    <!-- Si quieres, luego podés linkear a tu home real -->
+    <a href="#" class="back">← Volver</a>
+
+    <header class="hero">
+      <h1>Deriva sobre la persona</h1>
+      <h2>Roma, puentes y sombras</h2>
+    </header>
+
+    <p class="dropcap">
+      Muy loco que en este momento estemos participando de algo que no es del todo nuestro… En realidad yo no, pero Angie sí, Angie leyendo manos en una película que habla de la persona, de todas las personas que somos, de todos los personajes que habitamos simultáneamente, y yo caminando, medio a un lado, medio dentro, escuchando el Tévere que corre como un pensamiento líquido, que murmura cosas que se pierden en la piedra y en las hojas.
+    </p>
+
+    <p>
+      Susana hablando de su film y yo escuchando cómo la poeta transforma su propia voz, y cómo Angie, leyendo sus manos, abre algo que no se ve, algo que vibra detrás de la piel y los gestos. Cuántas personas conviven en la misma persona, cuántas voces esperan su turno mientras la ciudad no deja de hablar, mientras Roma respira y nosotros flotamos entre piedras, luces, sombras.
+    </p>
+
+    <p>
+      El Ponte Fabricio sostiene el tiempo, los pasos, los silencios. Más allá, el Ponte Rotto, fragmentado, suspendido, un puente que ya no une, un puente que dice sin palabras que algunas rutas se quiebran pero no desaparecen. La ruina, la continuidad de lo roto, mi sombra proyectándose sobre las piedras húmedas, y siento que por un segundo el puente se completa, y no sé si soy yo o la sombra o el puente el que sostiene a quién.
+    </p>
+
+    <!-- Si quieres imagen, crea carpeta assets/ y sube persona2.jpeg -->
+    <figure>
+      <img src="assets/persona2.jpeg" alt="Roma — puentes y sombras">
+      <figcaption>Ponte Rotto / Ponte Fabricio — membranas de tiempo</figcaption>
+    </figure>
+
+    <div class="sep">⋯</div>
+
+    <p>
+      El olor de los plátanos en otoño sube desde la acera, mezcla de hoja húmeda y hoja que se pudre, aroma que recuerda lo que se disuelve y lo que permanece, y me hace pensar que la persona también huele así: a capas, a memoria, a lo que queda y lo que se transforma. Entre ramas, luces y sombras, las paredes grises cobran formas que no pertenecen del todo al presente, ecos de antiguos pasos, presencias antiguas, sombras de otros que alguna vez pasaron por aquí y ahora regresan en líneas que apenas se perciben.
+    </p>
+
+    <div class="pull">
+      La persona es máscara y membrana. Per–sonare: lo que vibra a través.
+    </div>
+
+    <p>
+      La persona es máscara y membrana, dice la voz que resuena a través de todo esto. Per-sonare. Lo que pasa, lo que vibra, lo que atraviesa el cuerpo sin permiso. Y pienso en la poeta, en las manos que Angie lee, en cuántas capas de uno mismo conviven y cómo algunas solo se dejan ver en el umbral, en los espacios liminales, en los puentes rotos, en la bruma húmeda que se respira entre los arcos y las piedras.
+    </p>
+
+    <p>
+      Y entonces derivo: de Ponte Rotto a Ponte Fabricio, de las luces que caen sobre los árboles a las luces que atraviesan las sombras de mis propios pasos, de la ciudad que ruge a la ciudad que murmura. Y pienso que la persona no es unidad, no es línea recta, no es un puente entero. Es ruina que se sostiene, es sombra que proyecta otra sombra, es río que arrastra hojas, autos, voces, recuerdos.
+    </p>
+
+    <p>
+      Los autos, las motos, la ambulancia que corta la noche: ruido, fondo, pulso. Y yo escucho y me siento parte de ese fondo y a la vez algo que emerge de él, como si la identidad misma fuera una línea que se dobla, que se fractura, que se expande y se contrae, un puente invisible que atraviesa la memoria, el tiempo, la luz, la sombra.
+    </p>
+
+    <div class="pull">
+      Somos puente roto y puente intacto al mismo tiempo.
+    </div>
+
+    <p>
+      Y vuelvo a la pregunta inicial: la persona, ¿quién es? ¿Quién está detrás de la persona? ¿Quién camina detrás de la sombra que proyecta? Tal vez la persona es solo el umbral que habitamos, el paso entre lo que somos y lo que nos atraviesa, entre la ruina y la luz, entre el río y las piedras, entre la máscara y lo que resuena a través de ella.
+    </p>
+
+    <p>
+      Y mientras camino, el Tévere murmura otra vez, las hojas caen, las sombras se desdoblan, y pienso que la ciudad entera conspira para recordarnos que nada es lineal, que todo se superpone, que somos multiplicidad que se cruza con multiplicidad, que somos puente roto y puente intacto al mismo tiempo, que la persona nunca termina de decir quién es.
+    </p>
+
+    <footer class="footnote">
+      Texto: umbralpunk · Esta página es una crónica suelta, parte del archivo psicogeográfico.
+    </footer>
+  </main>
+</body>
+</html>
